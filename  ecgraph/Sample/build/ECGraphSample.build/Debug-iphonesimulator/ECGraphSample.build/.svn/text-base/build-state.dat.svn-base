@@ -1,458 +1,0 @@
-TECGraphSample
-v7
-r0
-t295520202.279821
-cCheck dependencies
-cProcessInfoPlistFile /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/Info.plist ECGraphSample-Info.plist
-cCompileXIB /Users/lifei1984/Desktop/ECGraphSample/Sample/MainWindow.xib
-cCompileXIB /Users/lifei1984/Desktop/ECGraphSample/Sample/ECGraphViewController.xib
-cProcessPCH /var/folders/6L/6LLFjGTsEgKi2EWJESW5Rk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ECGraphSample_Prefix-dnplyqgvmrtjjedidbgpinfhezfp/ECGraphSample_Prefix.pch.gch ECGraphSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/main.o /Users/lifei1984/Desktop/ECGraphSample/Sample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphSampleAppDelegate.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphSampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphViewController.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/DisplayView.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/DisplayView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECCommon.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECCommon.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraph.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraph.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphItem.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphLine.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphLine.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphPoint.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphPoint.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/ECGraphSample normal i386
-cGenerateDSYMFile /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app.dSYM /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/ECGraphSample
-cTouch /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk
-c000000004ABE051D00000000000000EE
-t1253967133
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004A0BAA26000000000026DB00
-t1242278438
-s2546432
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004A0BAB370000000000260C20
-t1242278711
-s2493472
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004A0BAB250000000000001355
-t1242278693
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004A0CBEBB000000000000075E
-t1242349243
-s1886
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004A0CBF5F0000000001432D80
-t1242349407
-s21179776
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/mach/mach_time.h
-c000000004763449D0000000000000746
-t1197687965
-s1862
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/time.h
-c000000004748A133000000000000178E
-t1195942195
-s6030
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECCommon.h
-c000000004BEBB0D000000000000012CE
-t1273737424
-s4814
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECCommon.m
-c000000004BED0F050000000000003F7C
-t1273827077
-s16252
-i"ECCommon.h"
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraph.h
-c000000004BEB9BE30000000000000DB5
-t1273732067
-s3509
-i<Foundation/Foundation.h>
-i"ECGraphItem.h"
-i"ECGraphPoint.h"
-i"ECGraphLine.h"
-i"ECCommon.h"
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraph.m
-c000000004BED0F05000000000000631E
-t1273827077
-s25374
-i"ECGraph.h"
-i<time.h>
-i<mach/mach_time.h>
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphItem.h
-c000000004BEB8F5A00000000000002F8
-t1273728858
-s760
-i<Foundation/Foundation.h>
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphItem.m
-c000000004BEB8F5A00000000000001F7
-t1273728858
-s503
-i"ECGraphItem.h"
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphLine.h
-c000000004BEA70A800000000000002A6
-t1273655464
-s678
-i<Foundation/Foundation.h>
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphLine.m
-c000000004BEA70A800000000000001BF
-t1273655464
-s447
-i"ECGraphLine.h"
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphPoint.h
-c000000004BEA70C5000000000000027F
-t1273655493
-s639
-i<Foundation/Foundation.h>
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphPoint.m
-c000000004BEA70C50000000000000290
-t1273655493
-s656
-i"ECGraphPoint.h"
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/DisplayView.h
-c000000004BEA07DC00000000000000ED
-t1273628636
-s237
-i<UIKit/UIKit.h>
-i"ECGraph.h"
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/DisplayView.m
-c000000004BED1049000000000000130B
-t1273827401
-s4875
-i"DisplayView.h"
-i"ECCommon.h"
-i"ECGraphPoint.h"
-i"ECGraphLine.h"
-i"ECGraphItem.h"
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphSampleAppDelegate.h
-c000000004BEBA83400000000000001E8
-t1273735220
-s488
-i<UIKit/UIKit.h>
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphSampleAppDelegate.m
-c000000004BEBA83400000000000002ED
-t1273735220
-s749
-i"ECGraphSampleAppDelegate.h"
-i"ECGraphViewController.h"
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphViewController.h
-c000000004BEBA80300000000000000F1
-t1273735171
-s241
-i<UIKit/UIKit.h>
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphViewController.m
-c000000004BEBA80300000000000005BE
-t1273735171
-s1470
-i"ECGraphViewController.h"
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/ECGraphSample_Prefix.pch
-c000000004BCA3C4400000000000000C3
-t1271544900
-s195
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/ECGraphViewController.xib
-c000000004BED0F3000000000000019F8
-t1273827120
-s6648
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/MainWindow.xib
-c000000004BED10160000000000002319
-t1273827350
-s8985
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app
-t1273827402
-s238
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app.dSYM
-t1273827402
-s102
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/ECGraphSample
-t1273827402
-s82332
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/ECGraphViewController.nib
-t1273827125
-s1219
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/Info.plist
-t1273826921
-s586
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/MainWindow.nib
-t1273827354
-s1501
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/PkgInfo
-t1273826921
-s8
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/DisplayView.o
-t1273827401
-s21148
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECCommon.o
-t1273827078
-s57836
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraph.o
-t1273827078
-s63244
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphItem.o
-t1273826952
-s13300
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphLine.o
-t1273826952
-s11864
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphPoint.o
-t1273826952
-s11732
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphSample.LinkFileList
-c000000004BED0E69000000000000053E
-t1273826921
-s1342
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphSampleAppDelegate.o
-t1273826950
-s38180
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphViewController.o
-t1273826951
-s30216
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/main.o
-t1273826949
-s5964
-
-N/Users/lifei1984/Desktop/ECGraphSample/Sample/main.m
-c000000004BCA3C440000000000000166
-t1271544900
-s358
-i<UIKit/UIKit.h>
-
-N/var/folders/6L/6LLFjGTsEgKi2EWJESW5Rk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ECGraphSample_Prefix-dnplyqgvmrtjjedidbgpinfhezfp/ECGraphSample_Prefix.pch.gch
-t1273826948
-s12957072
-
-NECGraphSample-Info.plist
-c000000004BCA3C44000000000000038D
-t1271544900
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies295520201#295520201#0(0"0(0#1#0"4300885448#0"0#
-
-CCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/DisplayView.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/DisplayView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s295520201.327998
-e295520201.854257
-r1
-xCompileC
-xbuild/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/DisplayView.o
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/DisplayView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/DisplayView.m295520201#295520201#0(0"0(0#0#67"/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/DisplayView.m4300885448#2076"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-generated-files.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-own-target-headers.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-all-target-headers.hmap -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-project-headers.hmap -F/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/include -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources/i386 -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources -include /var/folders/6L/6LLFjGTsEgKi2EWJESW5Rk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ECGraphSample_Prefix-dnplyqgvmrtjjedidbgpinfhezfp/ECGraphSample_Prefix.pch -c /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/DisplayView.m -o /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/DisplayView.o0#
-
-CCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECCommon.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECCommon.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s295519877.412465
-e295519878.744196
-r1
-xCompileC
-xbuild/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECCommon.o
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECCommon.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECCommon.m295519877#295519878#0(0"0(0#0#69"/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECCommon.m4300885448#2075"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-generated-files.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-own-target-headers.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-all-target-headers.hmap -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-project-headers.hmap -F/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/include -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources/i386 -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources -include /var/folders/6L/6LLFjGTsEgKi2EWJESW5Rk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ECGraphSample_Prefix-dnplyqgvmrtjjedidbgpinfhezfp/ECGraphSample_Prefix.pch -c /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECCommon.m -o /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECCommon.o0#
-
-CCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraph.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraph.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s295519877.571675
-e295519878.827218
-r1
-xCompileC
-xbuild/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraph.o
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraph.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraph.m295519877#295519878#0(0"0(0#0#76"/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraph.m4300885448#2081"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-generated-files.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-own-target-headers.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-all-target-headers.hmap -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-project-headers.hmap -F/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/include -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources/i386 -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources -include /var/folders/6L/6LLFjGTsEgKi2EWJESW5Rk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ECGraphSample_Prefix-dnplyqgvmrtjjedidbgpinfhezfp/ECGraphSample_Prefix.pch -c /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraph.m -o /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraph.o0#
-
-CCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphItem.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s295519751.977498
-e295519752.054681
-r1
-xCompileC
-xbuild/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphItem.o
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphItem.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphItem.m295519751#295519752#0(0"0(0#0#80"/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphItem.m4300885448#2089"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-generated-files.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-own-target-headers.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-all-target-headers.hmap -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-project-headers.hmap -F/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/include -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources/i386 -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources -include /var/folders/6L/6LLFjGTsEgKi2EWJESW5Rk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ECGraphSample_Prefix-dnplyqgvmrtjjedidbgpinfhezfp/ECGraphSample_Prefix.pch -c /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphItem.m -o /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphItem.o0#
-
-CCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphLine.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphLine.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s295519752.054799
-e295519752.180786
-r1
-xCompileC
-xbuild/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphLine.o
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphLine.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphLine.m295519752#295519752#0(0"0(0#0#80"/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphLine.m4300885448#2089"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-generated-files.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-own-target-headers.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-all-target-headers.hmap -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-project-headers.hmap -F/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/include -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources/i386 -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources -include /var/folders/6L/6LLFjGTsEgKi2EWJESW5Rk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ECGraphSample_Prefix-dnplyqgvmrtjjedidbgpinfhezfp/ECGraphSample_Prefix.pch -c /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphLine.m -o /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphLine.o0#
-
-CCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphPoint.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphPoint.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s295519752.181151
-e295519752.370512
-r1
-xCompileC
-xbuild/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphPoint.o
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphPoint.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@89"Compile /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphPoint.m295519752#295519752#0(0"0(0#0#81"/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphPoint.m4300885448#2091"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-generated-files.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-own-target-headers.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-all-target-headers.hmap -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-project-headers.hmap -F/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/include -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources/i386 -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources -include /var/folders/6L/6LLFjGTsEgKi2EWJESW5Rk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ECGraphSample_Prefix-dnplyqgvmrtjjedidbgpinfhezfp/ECGraphSample_Prefix.pch -c /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/Core/ECGraph/ECGraphPoint.m -o /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphPoint.o0#
-
-CCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphSampleAppDelegate.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphSampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s295519748.858157
-e295519751.162095
-r1
-xCompileC
-xbuild/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphSampleAppDelegate.o
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphSampleAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphSampleAppDelegate.m295519748#295519751#0(0"0(0#0#80"/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphSampleAppDelegate.m4300885448#2102"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-generated-files.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-own-target-headers.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-all-target-headers.hmap -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-project-headers.hmap -F/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/include -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources/i386 -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources -include /var/folders/6L/6LLFjGTsEgKi2EWJESW5Rk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ECGraphSample_Prefix-dnplyqgvmrtjjedidbgpinfhezfp/ECGraphSample_Prefix.pch -c /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphSampleAppDelegate.m -o /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphSampleAppDelegate.o0#
-
-CCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphViewController.o /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s295519750.016427
-e295519751.397564
-r1
-xCompileC
-xbuild/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphViewController.o
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphViewController.m295519750#295519751#0(0"0(0#0#77"/Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphViewController.m4300885448#2096"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-generated-files.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-own-target-headers.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-all-target-headers.hmap -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-project-headers.hmap -F/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/include -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources/i386 -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources -include /var/folders/6L/6LLFjGTsEgKi2EWJESW5Rk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ECGraphSample_Prefix-dnplyqgvmrtjjedidbgpinfhezfp/ECGraphSample_Prefix.pch -c /Users/lifei1984/Desktop/ECGraphSample/Sample/Classes/ECGraphViewController.m -o /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphViewController.o0#
-
-CCompileC build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/main.o /Users/lifei1984/Desktop/ECGraphSample/Sample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s295519748.856959
-e295519750.016118
-r1
-xCompileC
-xbuild/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/main.o
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/lifei1984/Desktop/ECGraphSample/Sample/main.m295519748#295519750#0(0"0(0#0#52"/Users/lifei1984/Desktop/ECGraphSample/Sample/main.m4300885448#2054"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-generated-files.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-own-target-headers.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-all-target-headers.hmap -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-project-headers.hmap -F/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/include -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources/i386 -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources -include /var/folders/6L/6LLFjGTsEgKi2EWJESW5Rk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ECGraphSample_Prefix-dnplyqgvmrtjjedidbgpinfhezfp/ECGraphSample_Prefix.pch -c /Users/lifei1984/Desktop/ECGraphSample/Sample/main.m -o /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/lifei1984/Desktop/ECGraphSample/Sample/ECGraphViewController.xib
-s295519923.825852
-e295519925.541961
-r1
-xCompileXIB
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/ECGraphViewController.xib
-lSLF07#2@36"CompileXIB ECGraphViewController.xib295519923#295519925#0(0"0(0#0#71"/Users/lifei1984/Desktop/ECGraphSample/Sample/ECGraphViewController.xib4300885448#529"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/ECGraphViewController.nib /Users/lifei1984/Desktop/ECGraphSample/Sample/ECGraphViewController.xib0#
-
-CCompileXIB /Users/lifei1984/Desktop/ECGraphSample/Sample/MainWindow.xib
-s295520153.637584
-e295520154.963819
-r1
-xCompileXIB
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib295520153#295520154#0(0"0(0#0#60"/Users/lifei1984/Desktop/ECGraphSample/Sample/MainWindow.xib4300885448#507"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/MainWindow.nib /Users/lifei1984/Desktop/ECGraphSample/Sample/MainWindow.xib0#
-
-CGenerateDSYMFile /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app.dSYM /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/ECGraphSample
-s295520202.157940
-e295520202.275497
-r1
-xGenerateDSYMFile
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app.dSYM
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/ECGraphSample
-lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/ECGraphSample.app.dSYM build/Debug-iphonesimulator/ECGraphSample.app/ECGraphSample295520202#295520202#0(0"0(0#0#105"/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/ECGraphSample4300885448#422"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/ECGraphSample -o /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app.dSYM0#
-
-CLd /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/ECGraphSample normal i386
-s295520201.854404
-e295520202.157828
-r1
-xLd
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/ECGraphSample
-xnormal
-xi386
-lSLF07#2@110"Link /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/ECGraphSample295520201#295520202#0(0"0(0#0#0"4300885448#927"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -L/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator -F/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator -filelist /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/Objects-normal/i386/ECGraphSample.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/ECGraphSample0#
-
-CProcessInfoPlistFile /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/Info.plist ECGraphSample-Info.plist
-s295519721.471599
-e295519721.493431
-r1
-xProcessInfoPlistFile
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/Info.plist
-xECGraphSample-Info.plist
-lSLF07#2@32"Process ECGraphSample-Info.plist295519721#295519721#0(0"0(0#0#70"/Users/lifei1984/Desktop/ECGraphSample/Sample/ECGraphSample-Info.plist4300885448#518"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ECGraphSample-Info.plist -genpkginfo /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app/Info.plist0#
-
-CProcessPCH /var/folders/6L/6LLFjGTsEgKi2EWJESW5Rk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ECGraphSample_Prefix-dnplyqgvmrtjjedidbgpinfhezfp/ECGraphSample_Prefix.pch.gch ECGraphSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s295519725.567553
-e295519748.856709
-r1
-xProcessPCH
-x/var/folders/6L/6LLFjGTsEgKi2EWJESW5Rk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ECGraphSample_Prefix-dnplyqgvmrtjjedidbgpinfhezfp/ECGraphSample_Prefix.pch.gch
-xECGraphSample_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@35"Precompile ECGraphSample_Prefix.pch295519725#295519748#0(0"0(0#0#70"/Users/lifei1984/Desktop/ECGraphSample/Sample/ECGraphSample_Prefix.pch4300885448#1933"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-generated-files.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-own-target-headers.hmap -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-all-target-headers.hmap -iquote /Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/ECGraphSample-project-headers.hmap -F/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/include -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources/i386 -I/Users/lifei1984/Desktop/ECGraphSample/Sample/build/ECGraphSample.build/Debug-iphonesimulator/ECGraphSample.build/DerivedSources -c /Users/lifei1984/Desktop/ECGraphSample/Sample/ECGraphSample_Prefix.pch -o /var/folders/6L/6LLFjGTsEgKi2EWJESW5Rk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ECGraphSample_Prefix-dnplyqgvmrtjjedidbgpinfhezfp/ECGraphSample_Prefix.pch.gch0#
-
-CTouch /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app
-s295520202.275603
-e295520202.279764
-r1
-xTouch
-x/Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app
-lSLF07#2@97"Touch /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app295520202#295520202#0(0"0(0#0#0"4300885448#298"    cd /Users/lifei1984/Desktop/ECGraphSample/Sample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/lifei1984/Desktop/ECGraphSample/Sample/build/Debug-iphonesimulator/ECGraphSample.app0#
-
