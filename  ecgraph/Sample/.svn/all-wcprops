@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/7/trunk/%20ecgraph/Sample
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/7/trunk/%20ecgraph/Sample/main.m
+END
+ECGraphSample_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/%20ecgraph/Sample/ECGraphSample_Prefix.pch
+END
+ECGraphViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/%20ecgraph/Sample/ECGraphViewController.xib
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/7/trunk/%20ecgraph/Sample/MainWindow.xib
+END
+ECGraphSample-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/%20ecgraph/Sample/ECGraphSample-Info.plist
+END

@@ -1,0 +1,75 @@
+
+/* Class = "IBUIButton"; normalTitle = "Graph"; ObjectID = "1iL-FL-ngZ"; */
+"1iL-FL-ngZ.normalTitle" = "Graf";
+
+/* Class = "IBUIButton"; normalTitle = "Save"; ObjectID = "53K-43-akE"; */
+"53K-43-akE.normalTitle" = "Uložiť";
+
+/* Class = "IBUINavigationItem"; title = "Graph"; ObjectID = "AGb-gw-zpK"; */
+"AGb-gw-zpK.title" = "Graf";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "DSg-xn-WKj"; */
+"DSg-xn-WKj.text" = "Label";
+
+/* Class = "IBUINavigationItem"; title = "History"; ObjectID = "DlN-K6-hbU"; */
+"DlN-K6-hbU.title" = "História";
+
+/* Class = "IBUILabel"; text = "Date"; ObjectID = "E9y-tb-SIC"; */
+"E9y-tb-SIC.text" = "Dátum";
+
+/* Class = "IBUIBarButtonItem"; title = "Graph"; ObjectID = "G1w-au-GDR"; */
+"G1w-au-GDR.title" = "Graf";
+
+/* Class = "IBUILabel"; text = "Records: "; ObjectID = "GgY-gQ-chf"; */
+"GgY-gQ-chf.text" = "Záznamov: ";
+
+/* Class = "IBUILabel"; text = "Height"; ObjectID = "JwU-ff-DlR"; */
+"JwU-ff-DlR.text" = "Výška";
+
+/* Class = "IBUILabel"; text = "Weight"; ObjectID = "M6O-QG-gZ8"; */
+"M6O-QG-gZ8.text" = "Váha";
+
+/* Class = "IBUIButton"; normalTitle = "History"; ObjectID = "RT0-Qk-DUM"; */
+"RT0-Qk-DUM.normalTitle" = "História";
+
+/* Class = "IBUILabel"; text = "Date:"; ObjectID = "RvQ-KS-Y3g"; */
+"RvQ-KS-Y3g.text" = "Dátum:";
+
+/* Class = "IBUILabel"; text = "Weight:"; ObjectID = "T8C-fE-KIv"; */
+"T8C-fE-KIv.text" = "Váha:";
+
+/* Class = "IBUITextField"; placeholder = "Enter the height"; ObjectID = "YS2-5R-Isf"; */
+"YS2-5R-Isf.placeholder" = "Zadejte Vašu výšku";
+
+/* Class = "IBUILabel"; text = "Kg"; ObjectID = "aGX-9I-3A9"; */
+"aGX-9I-3A9.text" = "Kg";
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "eGb-kh-2a9"; */
+"eGb-kh-2a9.title" = "Späť";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "evY-d4-pL1"; */
+"evY-d4-pL1.text" = "0";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "h4L-at-Oq3"; */
+"h4L-at-Oq3.text" = "Label";
+
+/* Class = "IBUILabel"; text = "0.0"; ObjectID = "klg-SA-tsS"; */
+"klg-SA-tsS.text" = "0.0";
+
+/* Class = "IBUITextField"; placeholder = "Enter the weight"; ObjectID = "quE-zx-AGX"; */
+"quE-zx-AGX.placeholder" = "Zadejte Vašu váhu";
+
+/* Class = "IBUILabel"; text = "Height:"; ObjectID = "qwD-A2-LtG"; */
+"qwD-A2-LtG.text" = "Height:";
+
+/* Class = "IBUILabel"; text = "cm"; ObjectID = "raR-ha-cYd"; */
+"raR-ha-cYd.text" = "cm";
+
+/* Class = "IBUINavigationItem"; title = "Enter data"; ObjectID = "vgf-Rp-1ic"; */
+"vgf-Rp-1ic.title" = "Zadanie dát";
+
+/* Class = "IBUILabel"; text = "BMI : "; ObjectID = "xeR-1t-Cgw"; */
+"xeR-1t-Cgw.text" = "BMI : ";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "xzr-9z-uRt"; */
+"xzr-9z-uRt.text" = "Label";
