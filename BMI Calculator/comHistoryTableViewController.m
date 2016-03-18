@@ -10,7 +10,6 @@
 #import "comHistoryCell.h"
 #import "comAppDelegate.h"
 #import "Entrys.h"
-#import "comBannerView.h"
 
 @interface comHistoryTableViewController ()
 
@@ -38,9 +37,7 @@
     self.clearsSelectionOnViewWillAppear = NO;
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    GADBannerView *gb = [comBannerView getBanerView:self];
-    self.tableView.tableFooterView=gb;
-    
+    self.canDisplayBannerAds = true;
 }
 
 -(void)viewDidAppear:(BOOL)animated{

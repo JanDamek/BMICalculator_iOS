@@ -8,7 +8,6 @@
 
 #import "comGraphViewController.h"
 #import "ECGraph.h"
-#import "comBannerView.h"
 #import "DisplayView.h"
 
 @interface comGraphViewController ()
@@ -26,7 +25,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	[_bannerView addSubview:[comBannerView getBanerView:self]];
+    self.canDisplayBannerAds = true;
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [_graphView setNeedsDisplay];
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 
-@interface comHistoryTableViewController : UITableViewController
+@interface comHistoryTableViewController : UITableViewController<ADBannerViewDelegate>
 
 @end

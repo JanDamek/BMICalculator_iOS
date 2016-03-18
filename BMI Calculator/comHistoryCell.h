@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface comHistoryCell : UITableViewCell
+
 @property (weak, nonatomic) IBOutlet UILabel *lblDate;
 @property (weak, nonatomic) IBOutlet UILabel *lblHeight;
 @property (weak, nonatomic) IBOutlet UILabel *lblWeight;

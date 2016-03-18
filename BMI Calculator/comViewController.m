@@ -50,10 +50,10 @@
         _heightSlider.value = [_heightEdit.text floatValue];
         _weightSlider.value = [_weightEdit.text floatValue];
     }
-
-    [_bannerView addSubview:[comBannerView getBanerView:self]];
     
     [self.d isPortrait];
+    
+    self.canDisplayBannerAds = true;
 }
 
 -(void)viewDidAppear:(BOOL)animated{
@@ -75,7 +75,7 @@
 }
 
 -(void)showRecordCount{
-    _lblNumOfRecords.text = [NSString stringWithFormat:@"%d", [self.d.data count]];
+    _lblNumOfRecords.text = [NSString stringWithFormat:@"%lu", (unsigned long)[self.d.data count]];
 }
 
 -(NSString*)getStringFromSlider:(UISlider*)sender{

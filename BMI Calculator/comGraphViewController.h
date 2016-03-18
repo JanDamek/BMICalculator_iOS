@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 
-@interface comGraphViewController : UIViewController
+@interface comGraphViewController : UIViewController<ADBannerViewDelegate>
 
 @end

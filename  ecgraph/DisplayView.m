@@ -47,13 +47,27 @@
     comAppDelegate *d = (comAppDelegate*)[[UIApplication sharedApplication]delegate];
     
     CGRect cr;
-    if([d isIPad]){
-        if ([d isPortrait]){
-            cr = CGRectMake(20, -340, rect.size.width-20, rect.size.height-50);
-        } else
-            cr = CGRectMake(20, -270, rect.size.width-20, rect.size.height-40);
-    }else
-        cr = CGRectMake(20, -10, rect.size.width-20, rect.size.height-60);
+//    if([d isIPad]){
+//        if ([d isPortrait]){
+//            cr = CGRectMake(20, -340, rect.size.width-20, rect.size.height-50);
+//        } else
+//            cr = CGRectMake(20, -270, rect.size.width-20, rect.size.height-40);
+//    }else
+    if (rect.size.height<450){
+        cr = CGRectMake(0, 125, rect.size.width, rect.size.height-30);
+    } else if (rect.size.height<700){
+        cr = CGRectMake(0, 45, rect.size.width, rect.size.height-30);
+    } else if (rect.size.height<960){
+        cr = CGRectMake(0, -350, rect.size.width, rect.size.height-50);
+    } else
+        cr = CGRectMake(0, -450, rect.size.width, rect.size.height-50);
+
+    //366 = 125
+    //454 = 45
+    //518 = 45
+    
+    //960 = -125
+    
     
     CGContextRef _context = UIGraphicsGetCurrentContext();
     
