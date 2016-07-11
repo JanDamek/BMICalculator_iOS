@@ -1,2 +1,0 @@
-BMICalculator_iOS
-=================
