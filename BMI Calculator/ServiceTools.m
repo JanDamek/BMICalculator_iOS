@@ -14,7 +14,7 @@
 
 +(void) GADInitialization:(GADBannerView*)bannerView rootViewController:(UIViewController*)rootViewController{
     NSLog(@"Google Mobile Ads SDK version: %@", [GADRequest sdkVersion]);
-    bannerView.adUnitID = @"ca-app-pub-9508528448741167/2142161857";
+    bannerView.adUnitID = @"ca-app-pub-9508528448741167/3618895050";
     bannerView.rootViewController = rootViewController;
     GADRequest *request = [GADRequest request];
     request.testDevices = @[ @"d94f56a29a7713c484d0cd4ae758cadb", @"213a4715eaba991fe83e5f35db3e3bc6" ];
