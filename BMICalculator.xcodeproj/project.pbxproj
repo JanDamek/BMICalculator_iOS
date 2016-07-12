@@ -25,7 +25,6 @@
 		F533800A1868939B00F418B7 /* comViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53380091868939B00F418B7 /* comViewController.m */; };
 		F533800C1868939B00F418B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F533800B1868939B00F418B7 /* Images.xcassets */; };
 		F533811B1868971600F418B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F533811A1868971600F418B7 /* AVFoundation.framework */; };
-		F533811D1868972B00F418B7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F533811C1868972B00F418B7 /* MessageUI.framework */; };
 		F53381211868975500F418B7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53381201868975500F418B7 /* SystemConfiguration.framework */; };
 		F53381C51868C12C00F418B7 /* Entrys.m in Sources */ = {isa = PBXBuildFile; fileRef = F53381C41868C12C00F418B7 /* Entrys.m */; };
 		F5D37261186C7260005E19F7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D37260186C7260005E19F7 /* CoreData.framework */; };
@@ -81,7 +80,6 @@
 		F53380091868939B00F418B7 /* comViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comViewController.m; sourceTree = "<group>"; };
 		F533800B1868939B00F418B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "BMI Calculator/Images.xcassets"; sourceTree = "<group>"; };
 		F533811A1868971600F418B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		F533811C1868972B00F418B7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		F53381201868975500F418B7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F53381C31868C12C00F418B7 /* Entrys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entrys.h; sourceTree = "<group>"; };
 		F53381C41868C12C00F418B7 /* Entrys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entrys.m; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				F5D37261186C7260005E19F7 /* CoreData.framework in Frameworks */,
 				EB17E4AA1B79FFBD00B22891 /* libsqlite3.0.dylib in Frameworks */,
 				F53381211868975500F418B7 /* SystemConfiguration.framework in Frameworks */,
-				F533811D1868972B00F418B7 /* MessageUI.framework in Frameworks */,
 				EB17E4AB1B79FFBD00B22891 /* libsqlite3.dylib in Frameworks */,
 				F5337FF31868939B00F418B7 /* CoreGraphics.framework in Frameworks */,
 				F533811B1868971600F418B7 /* AVFoundation.framework in Frameworks */,
@@ -161,7 +158,6 @@
 				EB17E4A51B79FFA600B22891 /* libGoogleAdMobAds.a */,
 				F5D37260186C7260005E19F7 /* CoreData.framework */,
 				F53381201868975500F418B7 /* SystemConfiguration.framework */,
-				F533811C1868972B00F418B7 /* MessageUI.framework */,
 				F533811A1868971600F418B7 /* AVFoundation.framework */,
 				F5337FF01868939B00F418B7 /* Foundation.framework */,
 				F5337FF21868939B00F418B7 /* CoreGraphics.framework */,
