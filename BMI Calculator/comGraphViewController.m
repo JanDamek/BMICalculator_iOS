@@ -63,8 +63,8 @@
     NSMutableArray<NSString*>* days = [[NSMutableArray alloc]init];
     for (Entrys *e in d.data) {
         BarChartDataEntry *point = [[BarChartDataEntry alloc] init];
-        point.value = [[ServiceTools calcBMIfromWeightFloat:e.wheith heightInt:e.height] floatValue];
-        point.xIndex = i++;
+        point.y = [[ServiceTools calcBMIfromWeightFloat:e.wheith heightInt:e.height] floatValue];
+        point.x = i++;
         
         [points addObject:point];
         NSDateFormatter *format = [[NSDateFormatter alloc] init];
@@ -73,8 +73,8 @@
         [days addObject:nsstr];
     }
     
-    BarChartDataSet *bmis = [[BarChartDataSet alloc] initWithYVals:points label:@"BMI"];
-    BarChartData *result = [[BarChartData alloc]initWithXVals:days dataSet:bmis];
+    BarChartDataSet *bmis = [[BarChartDataSet alloc] initWithValues:points label:@"BMI"];
+    BarChartData *result = [[BarChartData alloc]initWithDataSet:bmis];
     return result;
 }
 

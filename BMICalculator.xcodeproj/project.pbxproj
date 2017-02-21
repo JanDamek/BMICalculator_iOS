@@ -47,6 +47,7 @@
 		EBA465A71D33BE1900944905 /* ServiceTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTools.m; sourceTree = "<group>"; };
 		EBA465A91D33C38F00944905 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EBA465AB1D33D60900944905 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EBC9391A1E55F75F00CFF835 /* BMICalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BMICalculator.entitlements; sourceTree = "<group>"; };
 		F526C9FB1872EFE00051CE1B /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
 		F526C9FD1872EFE00051CE1B /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F526C9FE1872EFE00051CE1B /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -128,6 +129,7 @@
 		F5337FE41868939B00F418B7 = {
 			isa = PBXGroup;
 			children = (
+				EBC9391A1E55F75F00CFF835 /* BMICalculator.entitlements */,
 				EBA465AB1D33D60900944905 /* Podfile */,
 				EBA465A91D33C38F00944905 /* GoogleService-Info.plist */,
 				EB7E768D1C88FADD002E3AE1 /* Launch Screen.storyboard */,
@@ -243,8 +245,13 @@
 				TargetAttributes = {
 					F5337FEC1868939B00F418B7 = {
 						DevelopmentTeam = GR74KSG8M9;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Push = {
 								enabled = 0;
 							};
 						};
@@ -320,7 +327,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		8E05037ECDC05D2E3522A70A /* [CP] Copy Pods Resources */ = {
@@ -505,6 +512,7 @@
 				PRODUCT_NAME = BMICalculator;
 				PROVISIONING_PROFILE = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
@@ -519,6 +527,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BMI Calculator/BMICalculator-Prefix.pch";
 				INFOPLIST_FILE = "BMI Calculator/BMICalculator-Info.plist";
@@ -532,8 +541,10 @@
 				OTHER_LDFLAGS = "${inherited}";
 				PRODUCT_BUNDLE_IDENTIFIER = "jandamek.BMI-Calculator";
 				PRODUCT_NAME = BMICalculator;
-				PROVISIONING_PROFILE = "128f4dcc-8738-4300-b615-c3fa05a95c6c";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
